@@ -26,8 +26,4 @@ Input File: ```input.json```
 
 Place your input data in the ```input.json``` file. The application reads from this file to process the data. Ensure the data is correctly formatted as expected by the application.
 
-### Output
-The application will produce outputs based on the data provided. Example outputs for the test cases are:
-
-Output for Test Case 1: ```2.9999999999999987``` \
-Output for Test Case 2: ```33198405829207.97```
+For second testcase copy the json file input2.json and paste it in input.json ,then run the code
