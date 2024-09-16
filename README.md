@@ -1,18 +1,33 @@
-**How to Run the Code in VS Code**
-Open VS Code: Launch Visual Studio Code.
+# Project Name
 
-Create and Save the File:
+## Overview
 
+This project runs a JavaScript application that processes data and produces outputs. Follow the steps below to set up and run the application.
 
-Install Dependencies:
+## Setup
 
-Open the terminal in VS Code.
+### 1. Initialize the Project
 
-Copy code
-npm install mathjs
-Run the Script:
+Open your terminal and navigate to the project directory. Run the following command to initialize a new Node.js project:
 
-In the terminal, run:
+```sh
+npm init -y
+```
 
+### 2. Run the Application
+To execute the application, use Node.js to run the main.js file. Ensure that Node.js is installed on your system. In your terminal,
+
+```sh
 node index.js
-1) For 2nd testcase copy json file from input2.json and run code again for 2nd testcase.
+```
+
+### Input
+Input File: ```input.json```
+
+Place your input data in the ```input.json``` file. The application reads from this file to process the data. Ensure the data is correctly formatted as expected by the application.
+
+### Output
+The application will produce outputs based on the data provided. Example outputs for the test cases are:
+
+Output for Test Case 1: ```2.9999999999999987``` \
+Output for Test Case 2: ```33198405829207.97```
